@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExclamationTriangle, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 const IncidentCard = ({ incident }) => {
-  const { id, type, status, created_at, urgency, title, incident_type } = incident;
+  const { type, status, created_at, urgency, title, incident_type } = incident;
 
   return (
     <div className={`incident-card urgency-${urgency || 'unknown'} status-${status || 'unknown'}`}>

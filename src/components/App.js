@@ -60,7 +60,7 @@ function App() {
     if (!count.current) {
       fetchIncidents(LIST_INCIDENTS_URL);
     }
-  }, []);
+  }, [API_KEY, LIST_INCIDENTS_URL]);
 
   const handleFilterChange = (e) => {
     const { name, value } = e.target;
