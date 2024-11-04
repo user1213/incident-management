@@ -39,3 +39,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Incidents are displayed in each card
 - They can be filtered by Status and Urgency.
 - Cards are color coordinated based on the Status
+- Note: https://api.pagerduty.com/incidents at https://developer.pagerduty.com/api-reference/9d0b4b12e36f9-list-incidents does not have any incidents available when fetched.
+- Hence for demo purpose, using a sample JSON data based on the incident structure provided by above documentation
