@@ -1,0 +1,97 @@
+{
+    "incidents": [
+      {
+        "id": "PT4KHLK",
+        "type": "incident_reference",
+        "status": "acknowledged",
+        "urgency": "high",
+        "created_at": "2023-10-01T12:30:00Z",
+        "title": "Database connection issues",
+        "incident_type": {
+          "name": "service_disruption"
+        }
+      },
+      {
+        "id": "PQMF62U",
+        "type": "incident_reference",
+        "status": "triggered",
+        "urgency": "low",
+        "created_at": "2023-10-02T09:15:00Z",
+        "title": "Slow response time on API",
+        "priority": {
+          "id": "P53ZZH5",
+          "type": "priority_reference"
+        }
+      },
+      {
+        "id": "PPVZH9X",
+        "type": "incident_reference",
+        "status": "resolved",
+        "urgency": "high",
+        "created_at": "2023-10-03T14:00:00Z",
+        "title": "Network latency spikes",
+        "incident_type": {
+          "name": "network_issue"
+        }
+      },
+      {
+        "id": "P8JOGX7",
+        "type": "incident_reference",
+        "status": "acknowledged",
+        "urgency": "low",
+        "created_at": "2023-10-04T16:45:00Z",
+        "title": "Scheduled maintenance alert",
+        "assignments": [
+          {
+            "assignee": {
+              "id": "PXPGF42",
+              "type": "user_reference"
+            }
+          }
+        ]
+      },
+      {
+        "id": "PYJ9K7I",
+        "type": "incident_reference",
+        "created_at": "2023-10-05T10:20:00Z",
+        "title": "Major outage in data center",
+        "incident_type": {
+          "name": "major_incident"
+        },
+        "priority": {
+          "id": "P6T2ZZ5",
+          "type": "priority_reference"
+        }
+      },
+      {
+        "id": "PZM9Q6W",
+        "type": "incident_reference",
+        "status": "triggered",
+        "urgency": "high",
+        "created_at": "2023-10-06T18:05:00Z",
+        "title": "Memory leak in production server",
+        "priority": {
+          "id": "P1T3DF8",
+          "type": "priority_reference"
+        }
+      },
+      {
+        "id": "PH8YZ9P",
+        "type": "incident_reference",
+        "urgency": "low",
+        "created_at": "2023-10-07T22:00:00Z",
+        "title": "Routine system update",
+        "incident_type": {
+          "name": "maintenance"
+        }
+      },
+      {
+        "id": "PX4T0KL",
+        "type": "incident_reference",
+        "status": "resolved",
+        "created_at": "2023-10-08T07:55:00Z",
+        "title": "Resolved: Disk space warning",
+        "urgency": "low"
+      }
+    ]
+  }

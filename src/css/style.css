@@ -1,0 +1,113 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+
+  .content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .filters label {
+    display: flex;
+    align-items: center;
+  }
+
+  .filters select {
+    margin-left: 8px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .incident-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+  }
+
+  /* Incident Card Styling */
+  .incident-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    transition: box-shadow 0.3s;
+  }
+
+  .incident-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .incident-card h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  .incident-card p {
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+
+  /* Urgency Colors and Icons */
+  .incident-card.urgency-high {
+    background-color: #ffe6e6; /* Light red background for high urgency */
+    border-left: 5px solid #ff4d4d; /* Dark red border */
+  }
+
+  .incident-card.urgency-low {
+    background-color: #e6f7ff; /* Light blue background for low urgency */
+    border-left: 5px solid #4da6ff; /* Blue border */
+  }
+
+  /* Icon Styling */
+  .urgency-display {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+  }
+
+  .urgency-icon {
+    font-size: 1.2em;
+  }
+
+  /* Status Colors */
+  .incident-card.status-resolved {
+    background-color: #e6ffe6; /* Light green background for resolved status */
+    border-left: 5px solid #4dff4d; /* Green border */
+  }
+
+  .incident-card.status-acknowledged {
+    background-color: #fff7e6; /* Light orange background for acknowledged status */
+    border-left: 5px solid #ffb84d; /* Orange border */
+  }
+
+  .incident-card.status-triggered {
+    background-color: #ffe6f7; /* Light pink background for triggered status */
+    border-left: 5px solid #ff4db8; /* Pink border */
+  }
+
+  /* Error Message */
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
