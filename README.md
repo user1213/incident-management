@@ -41,3 +41,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - Cards are color coordinated based on the Status
 - Note: https://api.pagerduty.com/incidents at https://developer.pagerduty.com/api-reference/9d0b4b12e36f9-list-incidents does not have any incidents available when fetched.
 - Hence for demo purpose, using a sample JSON data based on the incident structure provided by above documentation
+- App is hosted at https://6728463b92df75b1892d383b--regal-beignet-9f54e7.netlify.app/
